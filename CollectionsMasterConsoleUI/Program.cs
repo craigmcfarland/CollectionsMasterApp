@@ -13,7 +13,7 @@ namespace CollectionsMasterConsoleUI
 
             #region Arrays
             // Create an integer Array of size 50
-            
+            var number = new int[50];
 
             //Create a method to populate the number array with 50 random numbers that are between 0 and 50
             
@@ -116,8 +116,13 @@ namespace CollectionsMasterConsoleUI
 
         private static void Populater(List<int> numberList)
         {
-            Random rng = new Random();
+            //Create a method to populate the number array with 50 random numbers that are between 0 and 50
 
+            for(int i = 0; i < numbers.Length; i++)
+
+                Random rng = new Random();
+                numbers [i] = 
+                 
         }
 
         private static void Populater(int[] numbers)
